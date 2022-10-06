@@ -7,7 +7,7 @@ import Hero from "./Hero";
 const MovieCard = ({ movie }) => {
   const posterURL = `https://image.tmdb.org/t/p/w500${movie.poster_path}`;
 
-  const detailUrl = `/movies/${movie.id}`;
+  const detailUrl = `/movie/${movie.id}`;
   return (
     <div className="col-lg-2 col-md-3 col-2">
       <div className="card">
