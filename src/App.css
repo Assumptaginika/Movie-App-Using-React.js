@@ -18,3 +18,13 @@
     opacity: 0.4;
 
 }
+
+.homeimg {
+    position: relative;
+    display: flex;
+}
+p .home {
+    position:absolute;
+    bottom: 10px;
+}
+
